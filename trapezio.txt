@@ -1,0 +1,9 @@
+def calcula_area(base_maior,base_menor,altura):
+    return ((base_maior + base_menor) * altura)/2
+
+altura = int(input("Entre com o valor da altura: "))
+base_maior = int(input("Entre com o valor da base maior: "))
+base_menor = int(input("Entre com o valor da base menor: "))
+
+area = calcula_area(base_maior,base_menor,altura)
+print(area)
